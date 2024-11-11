@@ -36,5 +36,5 @@ app.use('/api', routes);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-    console.log(`Swagger UI available at http://localhost:${PORT}/api-docs`);
+    console.log(`Swagger UI available at https://api.sprinsoft.com/api-docs`);
 });

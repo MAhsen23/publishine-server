@@ -18,8 +18,8 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: `http://localhost:${PORT}`,
-                description: 'Development server',
+                url: `https://api.sprinsoft.com/publishine`,
+                description: 'Production server',
             },
         ],
     },

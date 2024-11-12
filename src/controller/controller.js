@@ -51,7 +51,7 @@ exports.register = async (req, res) => {
         const user = new User({ email, password, otp, otpExpires });
 
         await user.save();
-        await sendOtpEmail(email, otp);
+        //await sendOtpEmail(email, otp);
         res.status(201).json({ success: true, message: 'User registered successfully. OTP sent to email', user: user._id });
     } catch (error) {
         res.status(500).json({ success: false, message: error.message });

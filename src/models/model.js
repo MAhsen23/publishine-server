@@ -14,7 +14,7 @@ const UserSchema = new Schema({
     isVerified: { type: Boolean, default: false },
     isApproved: { type: Boolean, default: false },
     profilePicture: { type: String },
-    bio: { type: String, required: true },
+    bio: { type: String },
     linkedIn: { type: String },
     contactNumber: { type: String },
 });
